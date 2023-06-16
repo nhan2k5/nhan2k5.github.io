@@ -1,47 +1,33 @@
 <!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link rel="stylesheet" href="style.css">
-    <link rel="shortcut icon" href="https://i.ibb.co/4pB5tKz/FB-IMG-1678099032382.jpg" type="image/x-icon">
-
-    <script src="https://nhanpro.w3spaces.com/script.js" defer></script>
-
+<!-- Coding By CodingNepal - www.codingnepalweb.com -->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
     <title>NGUYEN DINH NHAN - ChatGPT</title>
-</head>
-
-<body>
-
-    <div class="container">
-        <div class="header">
-            <h3> ChatGPT Bot</h3>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="shortcut icon" href="https://i.ibb.co/4pB5tKz/FB-IMG-1678099032382.jpg" type="image/x-icon">
+   
+    <!-- Google Fonts Link For Icons -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <!-- Chats container -->
+    <div class="chat-container"></div>
+    
+    <!-- Typing container -->
+    <div class="typing-container">
+      <div class="typing-content">
+        <div class="typing-textarea">
+          <textarea id="chat-input" spellcheck="false" placeholder="Nhập tin nhắn ở đây...  Enter your message here..." required></textarea>
+          <span id="send-btn" class="material-symbols-rounded">send</span>
         </div>
-
-        <div class="info">
-            <a href="https://Youtube.com/@AsmrProg" target="_blank">
-                "Ask me anything"
-            </a>
-        </div>
-
-        <div class="chat-container">
-            <div id="chat-log"></div>
-        </div>
-
-        <div class="input-container">
-            <input type="text" id="user-input" placeholder="Send a message.">
-            <button id="send-button">
-                <i class="fa-solid fa-paper-plane" id="button-icon"></i>
-            </button>
-        </div>
-
+        <div class="typing-controls">
+          <span id="theme-btn" class="material-symbols-rounded">light_mode</span>
+          <span id="delete-btn" class="material-symbols-rounded">delete</span>
+      </div>
     </div>
 
-
-
-</body>
-
+  </body>
 </html>

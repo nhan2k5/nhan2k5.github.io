@@ -1,0 +1,144 @@
+/* google font library only */
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rowdies&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two:ital@1&display=swap');
+
+body{
+  background-color: wheat;
+}
+
+.exit-btn {
+  position: fixed;
+  top: 15px;
+  left: 12px;
+  width: 40px;
+  height: 40px;
+  background-color: #fff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: #000;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  z-index: 9999;
+}
+
+.exit-btn i {
+  font-size: 20px;
+}
+
+/* Add any additional styles for your web content */
+
+
+.text{
+  font-family: 'Rowdies';
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  color: saddlebrown;
+  font-size: 24px;
+}
+
+.textsub{
+  font-family: 'Lobster Two';
+  font-size: 17.5px;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  flex: 1 0 300px;
+  margin: 10px;
+  padding: 20px;
+  background-color: #F5F5F5;
+  transition: transform 0.3s;
+}
+
+
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.title {
+  margin-top: 70px;
+  font-family: 'Lilita One';
+  color: saddlebrown;
+  font-size: 50px;
+  text-align: center;
+  margin-top: 60px;
+}
+
+
+.use-now-btn {
+  background-color: #6495ED;
+  font-family: 'Rowdies';
+  color: white;
+  padding: 6px 10px;
+  border-radius: 4px;
+  text-decoration: none;
+  transition: transform 0.3s;
+}
+
+.use-now-btn:hover {
+  transform: scale(1.1);
+}
+
+.how-to-use-btn,
+.close-btn {
+  background-color: #f44336;
+  font-family: 'Rowdies';
+  font-size: 15.3px;
+  color: white;
+  padding: 6px 10px;
+  border-radius: 4px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: transform 0.3s, background-color 0.3s;
+}
+
+.how-to-use-btn:hover,
+.close-btn:hover {
+  transform: scale(1.1);
+}
+
+
+
+.popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s, opacity 0.3s;
+}
+
+.popup-content {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.popup-title {
+  font-size: 24px;
+  font-family: 'Rowdies';
+  margin-bottom: 10px;
+}
+
+.popup-description {
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+/**/
